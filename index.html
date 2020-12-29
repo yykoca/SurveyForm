@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Responsive Web Design Projects - Survey Form</title>
+</head>
+
+<body>
+    <h1 id="title">Electric Car Survey</h1>
+    <p id="description">An electric car is a car which is propelled by one or more electric motors, using energy stored
+        in rechargeable batteries. The first practical electric cars were produced in the 1880s. Compared to internal
+        combustion engine (ICE) cars, electric cars are quieter, have no exhaust emissions, and lower emissions overall.
+    </p>
+
+    <form action="" id="survey-form">
+        <div id="name-label">
+            <input type="text" name="vorname" id="name" placeholder="Name">
+            <input type="text" name="nachname" id="surname" placeholder="Surname">
+        </div>
+        <div id="email-label">
+            <input type="email" name="E-Mail" id="email" placeholder="E-Mail">
+        </div>
+        <div id="number-label">
+            <input type="number" name="Bu ne icin" id="number" min="" max="" placeholder="Age">
+        </div>
+        <br>
+
+        <!-- RADIO BUTTONS-->
+        <div>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="male">Female</label><br>
+            <input type="radio" id="other" name="gender" value="Other">
+            <label for="other">Other</label><br>
+        </div>
+        <br><br>
+
+        <div>
+            Führerschein:<br>
+            <input type="radio" id="yes" name="schein" value="Yes">
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="schein" value="No">
+            <label for="no">No</label><br>
+        </div>
+        <br><br>
+
+        <!-- COURSES -->
+        <label for="dropdown">Electric Car:</label><br>
+        <select name="Cars" id="dropdown">
+            <option value="Tesla">Tesla</option>
+            <option value="BMW">BMW</option>
+            <option value="Mercedes">Mercedes</option>
+            <option value="Toyota">Toyota</option>
+            <option value="Volvo">Volvo</option>
+        </select>
+        <br><br>
+
+        <!-- CHECKBOXES -->
+        <div>
+            Was für ein Typ?<br>
+            <input type="checkbox" name="" id="ABC" value="a01">
+            <label for="ABC">Only Electric</label><br>
+            <input type="checkbox" name="" id="DEF" value="a02">
+            <label for="DEF">Electric and Hybrid</label><br>
+            <input type="checkbox" name="" id="GHJ" value="a03">
+            <label for="GHJ">Benzin</label><br>
+        </div>
+        <br>
+
+        <!-- COMMENT -->
+        <label for="comment">Was denken Sie?</label><br>
+        <textarea name="comment" id="comment" cols="30" rows="5">Hier comment noch.</textarea>
+        <br>
+        <button type="submit" id="submit">Submit</button>
+
+    </form>
+</body>
+
+</html>
