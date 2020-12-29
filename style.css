@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(88, 10, 10);
+}
+#container
+{
+    width: 75vw;
+    margin: auto;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 50px;
+    text-align: center;
+    background-color: aliceblue;
+    box-shadow: inset 2px -2px 5px rgb(56, 35, 6);
+}
+h1 {
+    text-align: center;
+    padding: 20px 0;
+}
+p {
+    text-align: justify;
+    text-indent: 35px;
+    margin-bottom: 20px;
+}
